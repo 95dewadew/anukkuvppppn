@@ -1,10 +1,9 @@
 {
-  "ads":"false",
+  "ads":"true",
   "update":[{
-    "version":"2.8.1600",
     "title":"Test VPN",
-    "description":"The App is testing",
-    "size":"https://git.io/JeY69"
+    "description":"App by jagoanssh.com",
+    "size":"Test VPN Unltimate"
   }],
   "blocked":[
     {"id":0, "app":"com.android.game"},
