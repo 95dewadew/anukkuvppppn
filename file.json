@@ -4,6 +4,8 @@
 dev tun
 proto udp
 remote remote 118.108.145.240 1508
+;http-proxy-retry
+;http-proxy [proxy server] [proxy port]
 cipher AES-128-CBC
 auth SHA1
 resolv-retry infinite
@@ -12,6 +14,7 @@ persist-key
 persist-tun
 client
 verb 3
+#auth-user-pass
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIF2DCCA8CgAwIBAgIQTKr5yttjb+Af907YWwOGnTANBgkqhkiG9w0BAQwFADCB
